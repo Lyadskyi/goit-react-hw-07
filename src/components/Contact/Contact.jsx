@@ -1,7 +1,7 @@
 import { IoIosContact } from "react-icons/io";
 import { AiTwotonePhone } from "react-icons/ai";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 import css from "./Contact.module.css";
 
 export default function Contact({ data: { name, number, id } }) {
